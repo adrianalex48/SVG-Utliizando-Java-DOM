@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
+    <!-- Pruebas de Line -->
+    <line x1="20" y1="20" x2="200" y2="100" stroke="blue" stroke-width="4" />
+    <line x1="20" y1="100" x2="200" y2="20" stroke="red" stroke-width="2" />
+
+    <!-- Pruebas de Rect -->
+    <rect x="250" y="20" width="150" height="80" fill="lightblue" stroke="navy" stroke-width="3" />
+    <rect x="420" y="20" width="100" height="100" fill="none" stroke="black" stroke-width="5" />
+
+    <!-- Pruebas de Circle -->
+    <circle cx="80" cy="200" r="50" fill="yellow" stroke="orange" stroke-width="3" />
+    <circle cx="200" cy="200" r="30" fill="green" stroke="none" />
+
+    <!-- Pruebas de Ellipse -->
+    <ellipse cx="380" cy="200" rx="80" ry="40" fill="lightgreen" stroke="green" stroke-width="2" />
+    <ellipse cx="550" cy="200" rx="40" ry="80" fill="none" stroke="red" stroke-width="4" />
+
+    <!-- Pruebas de Polyline -->
+    <polyline points="20,350 60,300 100,350 140,300 180,350" fill="none" stroke="black" stroke-width="3" />
+    <polyline points="250,350 300,280 350,350" fill="orange" stroke="black" stroke-width="2" />
+
+    <!-- Pruebas de Text -->
+    <text x="400" y="320" font-family="Arial" font-size="24" fill="navy">Prueba Java DOM SVG</text>
+    <text x="400" y="360" font-family="Courier" font-size="16" fill="black">Elementos parseados correctamente.</text>
+</svg>
